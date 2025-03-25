@@ -181,32 +181,32 @@
 //     .catch((error) => console.log(error)); // Runs if rejected
 
 
-// let myPromise = new Promise((resolve, reject) => {
+let myPromise = new Promise((resolve, reject) => {
 
-//     let x = 0;
-//     if(x==0){
-//         resolve("success");
-//         console.log("success"); 
-//     }
-//     else{
-//         reject("failure");
-//         console.log("failure");
-//     }
-// }
-// );
+    let x = 0;
+    if(x==0){
+        resolve("successuhdigvshofigos");
+        console.log("successdhbgidsbgosdi"); 
+    }
+    else{
+        reject("failureihsfgispoegowe");
+        console.log("failurehfboiriwrh");
+    }
+}
+);
 
 
 
 //with out the async and await
 
-function fetchData() {
-    fetch("https://dummyjson.com/recipes")
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error("Error fetching data:", error));
-}
+// function fetchData() {
+//     fetch("https://dummyjson.com/recipes")
+//         .then(response => response.json())
+//         .then(data => console.log(data))
+//         .catch(error => console.error("Error fetching data:", error));
+// }
 
-fetchData();
+// fetchData();
 
 
 // using the async and awiat
